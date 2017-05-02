@@ -7,6 +7,7 @@ import HelloWorld from './HelloWorld';
 // the value that is on the right-hand side of `export default`
 import Square, { BlueSquare } from './Square';
 import OrangeRectangle from './OrangeRectangle';
+import Shape from './Shape';
 
 function Main (props) {
   const style = {
@@ -25,6 +26,8 @@ function Main (props) {
       <Square color="LimeGreen" />
       <Square color="Fuchsia" />
       <Square color="Brown" />
+      <Shape color="Red" type="Circle" />
+      <Shape color="Blue" type="Square" />
     </div>
   );
 }

@@ -1,16 +1,10 @@
 import React from 'react';
+import Shape from './Shape';
 
 export function Square (props) {
   const { color = 'Blue' } = props;
-  // 👆 syntax sugar for 👇
-  // const color = props.color !== undefined ? props.color : 'Blue';
 
-  const style = {
-    height: '50px',
-    width: '50px',
-    backgroundColor: color
-  }
-  return <div style={style} className="square"></div>
+  return <Shape {...props} color={color} />
 }
 
 export function BlueSquare (props) {
