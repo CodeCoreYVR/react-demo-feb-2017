@@ -3,6 +3,7 @@
 // to React.createElement function calls
 import React from 'react';
 import HelloWorld from './HelloWorld';
+import BlueSquare from './BlueSquare';
 
 function Main (props) {
   const style = {
@@ -13,6 +14,7 @@ function Main (props) {
 
   return (
     <div style={style} className="main">
+      <BlueSquare />
       <HelloWorld name="Jon Snow" />
       <HelloWorld name="Daenerys Targaryan" />
       <HelloWorld name="Cersei Lannister" />
