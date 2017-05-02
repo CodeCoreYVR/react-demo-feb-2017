@@ -4,6 +4,7 @@
 import React from 'react';
 import HelloWorld from './HelloWorld';
 import BlueSquare from './BlueSquare';
+import OrangeRectangle from './OrangeRectangle';
 
 function Main (props) {
   const style = {
@@ -18,6 +19,7 @@ function Main (props) {
       <HelloWorld name="Jon Snow" />
       <HelloWorld name="Daenerys Targaryan" />
       <HelloWorld name="Cersei Lannister" />
+      <OrangeRectangle />
     </div>
   );
 }
