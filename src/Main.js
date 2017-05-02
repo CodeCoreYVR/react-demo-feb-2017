@@ -5,8 +5,14 @@ import React from 'react';
 import HelloWorld from './HelloWorld';
 
 function Main (props) {
+  const style = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  };
+
   return (
-    <div className="main">
+    <div style={style} className="main">
       <HelloWorld name="Jon Snow" />
       <HelloWorld name="Daenerys Targaryan" />
       <HelloWorld name="Cersei Lannister" />
