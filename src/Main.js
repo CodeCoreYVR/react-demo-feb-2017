@@ -35,6 +35,8 @@ function Main (props) {
          'Kitty Pride']
       }/>
       <ShadesOfGrey />
+      <Shape />
+      <Shape colors={['Yellow', 'Brown', 'Aquamarine', 'Gainsboro']} />
     </div>
   );
 }
