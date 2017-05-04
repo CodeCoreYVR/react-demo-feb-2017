@@ -10,6 +10,7 @@ import OrangeRectangle from './OrangeRectangle';
 import Shape from './Shape';
 import Greetings from './Greetings';
 import ShadesOfGrey from './ShadesOfGrey';
+import Timer from './Timer';
 
 function Main (props) {
   const style = {
@@ -20,6 +21,7 @@ function Main (props) {
 
   return (
     <div style={style} className="main">
+      <Timer />
       <BlueSquare />
       <HelloWorld name="Jon Snow" />
       <HelloWorld name="Daenerys Targaryan" />
