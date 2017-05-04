@@ -11,6 +11,21 @@ import Shape from './Shape';
 import Greetings from './Greetings';
 import ShadesOfGrey from './ShadesOfGrey';
 import Timer from './Timer';
+import StopWatch from './StopWatch';
+import Search from './Search';
+
+const names = [
+  'Nicholas',
+  'Siobhan',
+  'Cyndi',
+  'Chase',
+  'Amin',
+  'Julius',
+  'Serena',
+  'Nic',
+  'Ahmed',
+  'Trista'
+]
 
 function Main (props) {
   const style = {
@@ -21,6 +36,8 @@ function Main (props) {
 
   return (
     <div style={style} className="main">
+      <Search data={names} />
+      <StopWatch />
       <Timer />
       <BlueSquare />
       <HelloWorld name="Jon Snow" />
